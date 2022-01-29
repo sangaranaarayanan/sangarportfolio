@@ -7,6 +7,7 @@ import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
   {path: "",  component: HomeComponent},
+  {path: "**",  component: HomeComponent},
   {path:"home",component:HomeComponent},
   {path:"skills",component:SkillsComponent},
   {path:"projects",component: ProjComponent},
